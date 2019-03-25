@@ -1,0 +1,226 @@
+/* Punto 5: Su página debe incluir un archivo CSS. No se permiten estilos en línea. 
+ Su archivo CSS se debe colocar en una css carpeta dentro de la carpeta envase de la solución, por ejemplo, module2-solution/css. */
+/* Point 5.  Your page must include a CSS file. No inline styles allowed. 
+Your CSS file should be placed into a css folder under the solution container folder, e.g., module2-solution/css. */
+
+body
+* {
+   box-sizing: border-box;
+   }
+
+/* Clase: Tìtulo Principal - Descripción */
+/* Class:  Principal Title - Description */
+.tp {
+
+     font-family: Arial, Helvetica, sans-serif; /* Punto 15*/
+     color: black;
+     font-size: 1em;
+     text-align: center;
+    }
+
+/* Clase: Contenedor Principal - Descripción */
+/* Class:  Principal Container - Description */
+.c1 {
+     border: 1px solid black;  /* Punto 14*/
+     background-color: gray; 
+     color: black;
+     width: 90%; 
+     height: 300px;    
+     margin-right: auto;      /* Punto 13*/
+     margin-left: auto;
+     margin-top: 15px;   
+     padding: 30px;
+     font-family: Arial, Helvetica, sans-serif; /* Punto 15*/
+     overflow: auto;
+     position: relative;      /* Punto 12*/
+     text-align: justify;
+    }
+
+/* Punto 12: Clase - Tìtulo 1 - Arepa */
+/* Point 12: Class - Title 1 - Arepa */
+.t1 {    
+    width: 30%;
+    height: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Punto 15*/
+    font-size: 1.25em;
+    position: relative;   /* Punto 12*/
+    margin-left:  65%;
+    margin-top: -316px;
+    background:  #ffff00;  /* Punto 14*/ 
+    border: 1px solid black;
+    text-align: center;
+    }
+
+/* Punto 12: Clase - Tìtulo 2 - Tequeños */
+/* Point 12: Class - Title 2 - Tequeños */
+.t2 {
+    width: 30%;
+    height: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Punto 15*/
+    font-size: 1.25em;
+    position: relative;     /* Punto 12*/
+    margin-left:  65%;
+    margin-top: -316px;
+    background: #0000ff;    /* Punto 14*/
+    border: 1px solid black;
+    text-align: center;
+    }
+
+/* Punto 12: Clase - Tìtulo 3 - Pabellón */
+/* Point 12: Class - Class: Title 3 - Pabellón */
+.t3 {
+    width: 30%;
+    height: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Punto 15*/
+    font-size: 1.25em;
+    position: relative;     /* Punto 12*/
+    margin-left:  65%;
+    margin-top: -316px;
+    background: #ff0000;    /* Punto 14*/
+    border: 1px solid black;
+    text-align: center;
+    }
+
+.row {
+       width: 100%;
+     }
+/******** Puntos: 6, 7, 8, 9, 10 y 11 *******/
+/******** Versión PC: Solo debe aparecer si el ancho de la ventana del navegador es 992px o superior **********/
+/******** Points: 6, 7, 8, 9, 10 y 11 *******/
+/******** Desktop version: Should appear only if the width of the browser window is 992px and above  **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/******** Puntos: 6, 7, 8, 9, 10 y 11 *******/
+/***** Versión Tableta: Solo debe aparecer si el ancho de la ventana del navegador esta entre 768px y 991px.       **********/
+/******** Points: 6, 7, 8, 9, 10 y 11 *******/
+/***** Tablet view: Should appear only if the width of the browser window is between 768px and 991px, inclusively. **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/******** Puntos: 7,8, 9, 10 y 11 *******/
+/******* Versión Móvil: Solo debe aparecer si el ancho de la ventana del navegador es igual o menor que 767px. *******/
+/******** Points: 7,8, 9, 10 y 11 *******/
+/******* Mobile view: Should appear only if the width of the browser is equal to or less than 767px.           *******/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
