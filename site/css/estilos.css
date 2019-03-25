@@ -22,7 +22,7 @@ body
 /* Class:  Principal Container - Description */
 .c1 {
      border: 1px solid black;  /* Punto 14*/
-     background-color: gray; 
+     background-color: #9c9c9c; 
      color: black;
      width: 90%; 
      height: 300px;    
